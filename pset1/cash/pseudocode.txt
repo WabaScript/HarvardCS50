@@ -1,0 +1,15 @@
+1. Prompt user to determine required amount of change
+2. Amount must be a positive integer higher than .01
+    a. If not an integer or out of range, repeat step 2
+3. Convert the given amount from from a float to an inetger
+4. Use Greedy Algorithm to print amount of coins to return
+    a. Check if .25 is greater than amount and subtract from amount
+        i. if true, repeat, else next step
+    b. Check if .10 is greater than amount and subtract from amount
+        i. if true, repeat, else next step
+    c. Check if .05 is greater than amount and subtract from amount
+        i. if true, repeat, else next step
+    d. Check if .01 is greater than amount and subtract from amount
+        i. if true, repeat, else next step
+5. Return result to console
+

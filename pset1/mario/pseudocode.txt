@@ -1,0 +1,8 @@
+1. Greet user politely
+2. Prompt user to capture desired height input
+3. Height must be an integer between 1 and 8
+    a. If not an integer or out of range, repeat step 2
+4. Loop through the given input starting at 1
+    a.For reach iteration, i, print i hashtags and a new line
+5. Return result to console
+

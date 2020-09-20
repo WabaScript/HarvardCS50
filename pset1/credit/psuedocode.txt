@@ -1,0 +1,6 @@
+1. Prompt user to enter their credit card (lol)
+2. Credit card must be an integer between 13 and 16
+    a. If not an integer or out of range, repeat step 2
+3. Check credit card length and starting digits
+4. Print: AMEX or MASTERCARD or VISA or INVALID
+
